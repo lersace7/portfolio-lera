@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfoliolera.css">
+</head>
+<body>
+    <header class="hero">
+        <div id="hero-text">
+        <article id="titulo">VALERIIA MINCHUK</article>
+        <h3 id="subtitulo">DESARROLLADORA WEB JUNIOR</h3>
+        </div>
+
+<!--aqui quiero el boton de contactar-->
+
+        <div id="hero-img">
+            <img src="imagen-portfolio.png" alt="Valeriia portrait">
+        </div>
+    </header>
+    
+    <div id="mipanel">
+    <nav id="panelnav" class="bottom-nav">
+          <ul id="botones">
+                <!-- Primer elemento (Irá a la izquierda) -->
+                <li id="conoceme">Conóceme mejor:</li>
+               
+                <!-- Los siguientes irán a la derecha gracias al CSS -->
+                <li id="lisobre">Sobre mí</li>
+                <li id="lihabilidades">Habilidades</li>
+                <li id="liproyectos">Proyectos</li>
+            </ul>
+    </nav>
+    </div>
+    
+    <section id="sobremi" class="section fade-in">
+    <h1 id="titulosobremi">Sobre mí</h1>
+    <p id="parr">Soy desarrolladora web junior actualmente en formación en tecnologías web.
+    Mi experiencia como auxiliar administrativo me permitió desarrollar disciplina,
+    organización y orientación a objetivos.
+    </p>
+    <p id="parr">
+    Trabajo con HTML5, CSS3, JavaScript y también con Java y MySQL.
+    Me interesa especialmente comprender la lógica detrás de las aplicaciones,
+    estructurar correctamente el código y desarrollar soluciones claras y mantenibles.
+    </p>
+    <p id="parr">
+    Me considero creativa, con aprendizaje rápido y fuerte sentido de responsabilidad.
+    Disfruto el trabajo en equipo y busco siempre entregar resultados sólidos.
+    </p>
+    </section>
+
+    <section id="skills" class="section fade-in">
+         <h1>Habilidades</h1>
+        <div class="grid">
+        <div>
+            <h2>Tecnologías</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Herramientas</h2>
+            <ul>
+                <li>VS Code</li>
+                <li>IntelliJ IDEA</li>
+                <li>NetBeans</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section fade-in">
+        <h1>Proyectos</h1>
+        <p>Este portfolio es mi proyecto actual desarrollado con HTML, CSS y JavaScript, enfocado en accesibilidad y diseño moderno.</p>
+    </section>
+
+    <section id="contacto" class="section fade-in">
+        <h1 id="titulocontacto">Contacto</h1>
+
+        <div id="contact-container">
+        <div id="contact-right">
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Mensaje" required></textarea>
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
+        <p id="form-status"></p>
+        </div>
+
+        <div id="social">
+            <a href="https://www.linkedin.com/in/valeriia-minchuk-a2856a321" target="_blank" id="linkedin">LinkedIn</a>
+            <a href="https://github.com/lersace7" target="_blank" id="github">GitHub</a>
+            <a href="cv.pdf" download id="cv">Descargar CV</a>
+        </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="portfoliolera.js"></script>
+
+</body>
+</html>
