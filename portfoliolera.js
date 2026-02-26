@@ -24,12 +24,14 @@ form.addEventListener("submit", function(e) {
         "service_3zxcbfe",
         "template_h76paub",
         this
-    ).then(function() {
+    ).then(() => {
         alert("Mensaje enviado correctamente");
         form.reset();
-    }, function(error) {
+    }) 
+     .catch((error) => {
         alert("Error al enviar el mensaje");
         console.log(error);
     });
 });
+
 
