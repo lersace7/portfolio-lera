@@ -13,11 +13,9 @@ elements.forEach(el => observer.observe(el));
 
 
 // EmailJS 
-(function(){
-  emailjs.init("oayX8Ffl7jzCd6ff7");
-})();
+emailjs.init("oayX8Ffl7jzCd6ff7");
 
-const status = document.getElementById("contact-form");
+const form = document.getElementById("contact-form");
 
 form.addEventListener("submit", function(e) {
     e.preventDefault();
@@ -34,3 +32,4 @@ form.addEventListener("submit", function(e) {
         console.log(error);
     });
 });
+
