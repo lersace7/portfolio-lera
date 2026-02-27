@@ -340,7 +340,7 @@ input, textarea {
   margin-right: auto;
 }
 
-a {
+#linkedin, #github, #cv {
     text-decoration: none;
     color: white;
     display: inline-block;
@@ -355,7 +355,15 @@ a {
     background-color: black;
 }
 
-a:hover{
+#linkedin:hover{
+    border: solid 1px #182f15;
+}
+
+#github:hover{
+    border: solid 1px #182f15;
+}
+
+#cv:hover{
     border: solid 1px #182f15;
 }
 
@@ -424,5 +432,6 @@ a:hover{
   }
 
 }
+
 
 
