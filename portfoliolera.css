@@ -362,6 +362,12 @@ a:hover{
 
 
 
+#mifooter {
+    color: white;
+    font-size: 6px;
+    font-family: serif;
+ }
+
 
 @media (max-width: 900px) {
 
@@ -386,4 +392,5 @@ a:hover{
   #contact-right {
     width: 100%;
   }
+
 }
