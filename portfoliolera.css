@@ -157,18 +157,22 @@ h1 {
 #lihabilidades, #liproyectos, #lisobre {
     margin-left: 20px; 
     cursor: pointer;
+    border: none;
 }
 
 #lihabilidades:hover {
     color: rgb(165, 202, 165);
+    border: none;
 }
 
 #liproyectos:hover {
     color: rgb(165, 202, 165);
+    border: none;
 }
 
 #lisobre:hover {
     color: rgb(165, 202, 165);
+    border: none;
 }
 
 #a-sobremi:hover {
@@ -420,4 +424,5 @@ a:hover{
   }
 
 }
+
 
